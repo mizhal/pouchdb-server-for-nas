@@ -1,7 +1,8 @@
 #!/bin/bash
+HOST="http://192.168.6.1:8000"
 curl -H 'Content-Type: application/json' \
-	-XPOST http://localhost:3000/db/test \
+	-XPOST "$HOST/db/test" \
 	-d '{"company": "Example, Inc."}'
 curl -H 'Content-Type: application/json' \
-	-XPOST http://localhost:3000/db/test2 \
+	-XPOST "$HOST/db/test2" \
 	-d '{"company": "Example2, Inc."}'
