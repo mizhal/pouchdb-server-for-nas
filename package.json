@@ -1,4 +1,6 @@
 {
+  "name": "pouchdb-server-for-nas",
+  "version": "1.0.0",
   "repository": "https://github.com/mizhal/pouchdb-server-for-nas",
   "license": "GPL-3.0",
   "dependencies": {
