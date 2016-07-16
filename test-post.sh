@@ -1,5 +1,5 @@
 #!/bin/bash
-HOST="http://192.168.6.1:8000"
+HOST="http://127.0.0.1:3000"
 curl -H 'Content-Type: application/json' \
 	-XPOST "$HOST/db/test" \
 	-d '{"company": "Example, Inc."}'
