@@ -3,6 +3,9 @@ var express = require('express')
   , app     = express()
   , PouchDB = require('pouchdb')
   ;
+
+PouchDB.plugin(require('pouchdb-quick-search'))
+  ;
  
 var DataPouchDB = PouchDB.defaults({prefix: '/data/'});
 
